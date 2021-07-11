@@ -1,12 +1,13 @@
 package com.asterisk.day5;
 
 import com.asterisk.day5.login.GithubLogin;
+import com.asterisk.day5.login.GmailLogin;
 import com.asterisk.day5.login.Login;
 import com.asterisk.day5.playable.Playable;
 
 public class Main {
     public static void main(String[] args) {
-    Login login=new GithubLogin();
+    Login login=new GmailLogin();
     login.process();
 
         //        justPlay(new Football());
